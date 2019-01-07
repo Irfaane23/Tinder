@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25980BB421E2362900A3E7BB /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25980BB321E2362900A3E7BB /* LogInVC.swift */; };
+		25980BB621E2367000A3E7BB /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25980BB521E2367000A3E7BB /* MatchVC.swift */; };
+		25980BB821E23B4500A3E7BB /* UpdateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25980BB721E23B4500A3E7BB /* UpdateVC.swift */; };
+		25980BBA21E259D400A3E7BB /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25980BB921E259D400A3E7BB /* MatchTableViewCell.swift */; };
 		25B42644217239650081CB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B42643217239650081CB77 /* AppDelegate.swift */; };
 		25B42646217239650081CB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B42645217239650081CB77 /* ViewController.swift */; };
 		25B42649217239650081CB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B42647217239650081CB77 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25980BB321E2362900A3E7BB /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		25980BB521E2367000A3E7BB /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
+		25980BB721E23B4500A3E7BB /* UpdateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateVC.swift; sourceTree = "<group>"; };
+		25980BB921E259D400A3E7BB /* MatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
 		25B42640217239650081CB77 /* Tinder_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B42643217239650081CB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25B42645217239650081CB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 			children = (
 				25B42643217239650081CB77 /* AppDelegate.swift */,
 				25B42645217239650081CB77 /* ViewController.swift */,
+				25980BB321E2362900A3E7BB /* LogInVC.swift */,
+				25980BB721E23B4500A3E7BB /* UpdateVC.swift */,
+				25980BB521E2367000A3E7BB /* MatchVC.swift */,
+				25980BB921E259D400A3E7BB /* MatchTableViewCell.swift */,
 				25B42647217239650081CB77 /* Main.storyboard */,
 				25B4264A217239690081CB77 /* Assets.xcassets */,
 				25B4264C217239690081CB77 /* LaunchScreen.storyboard */,
@@ -211,7 +223,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B42646217239650081CB77 /* ViewController.swift in Sources */,
+				25980BBA21E259D400A3E7BB /* MatchTableViewCell.swift in Sources */,
 				25B42644217239650081CB77 /* AppDelegate.swift in Sources */,
+				25980BB621E2367000A3E7BB /* MatchVC.swift in Sources */,
+				25980BB421E2362900A3E7BB /* LogInVC.swift in Sources */,
+				25980BB821E23B4500A3E7BB /* UpdateVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             $0.applicationId = "XXXX"
             $0.clientKey = "YYYY"
             $0.server = "http://ZZZZZZZ.herokuapp.com/parse"
+            
         }
         Parse.initialize(with: parseConfig)
         
